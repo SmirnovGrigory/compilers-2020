@@ -1,5 +1,4 @@
 -- Stack machine.
-
 import Array;
 import List;
 import Fun;
@@ -8,7 +7,6 @@ import World;
 import State;
 import Expr;
 import Buffer;
-
 -- Stack code printer. Takes a list of SM instructions, return its
 -- string representation.
 public fun showSMInsn (i) {
@@ -50,7 +48,6 @@ fun initEvalEnv (insns) {
      case findMap (map, l) of Some (insns) -> insns esac
   }]
 }
-
 -- Accessor function
 fun fromLabel (env, lab) {
   env [0] (lab)

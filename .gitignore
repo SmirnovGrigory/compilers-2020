@@ -1,7 +1,4 @@
-*
-!/**/
-!*.*
-regression/**
 /**/*.o
 /**/*.s
 /**/*.i
+regression/**
